@@ -28,6 +28,9 @@ copy_table_queries = [
     REGION 'us-east-1'
     """,
 ]
+
+
+# insert แบบ disticnt เพราะว่าเราไม่ต้องการ inser id ซ้ำ
 insert_table_queries = [
     """
     INSERT INTO
